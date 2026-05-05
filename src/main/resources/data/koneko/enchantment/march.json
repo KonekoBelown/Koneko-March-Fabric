@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.koneko.march",
+    "fallback": "行军"
+  },
+  "supported_items": "#koneko:enchantable/march",
+  "primary_items": "#koneko:enchantable/march",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": {
+    "base": 18,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 48,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 6,
+  "slots": [
+    "mainhand"
+  ]
+}

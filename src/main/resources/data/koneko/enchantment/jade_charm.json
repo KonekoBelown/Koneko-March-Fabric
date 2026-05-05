@@ -1,0 +1,23 @@
+{
+  "description": {
+    "translate": "enchantment.koneko.jade_charm",
+    "fallback": "玉佩"
+  },
+  "supported_items": "#koneko:enchantable/jade_charm",
+  "primary_items": "#koneko:enchantable/jade_charm",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 18
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 18
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ]
+}

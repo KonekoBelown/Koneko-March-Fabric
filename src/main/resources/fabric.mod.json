@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "konekomarch",
+  "version": "${version}",
+  "name": "Koneko March",
+  "description": "（本mod使用了ai作为辅助）为武器加入「行军」附魔，不死图腾加入「玉佩」附魔，旨在增加游玩的畅通无阻性。",
+  "authors": [
+    "KonekoBelown",
+    "OpenAI"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/koneko/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.koneko.march.KonekoMarch"
+    ],
+    "client": [
+      "com.koneko.march.client.KonekoMarchClient"
+    ],
+    "modmenu": [
+      "com.koneko.march.client.KonekoMarchModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=17.0.0"
+  },
+  "mixins": [
+    "konekomarch.mixins.json"
+  ]
+}
