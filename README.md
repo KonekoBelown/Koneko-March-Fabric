@@ -1,4 +1,4 @@
-# Koneko March v1.0.11
+# Koneko March
 
 Koneko March 是一个面向 Minecraft Java Fabric 的战斗辅助 Mod。
 
