@@ -64,7 +64,7 @@ Koneko March 是一个面向 Minecraft Java Fabric 的战斗辅助 Mod。
 
 ## Koneko Warden Guard 联动
 
-Koneko March 可以与 Koneko Warden Guard 联动。
+Koneko March 可以与 [Koneko Warden Guard](https://github.com/KonekoBelown/Koneko-Warden-Guard-Fabric/) 联动。
 
 当同时安装 Koneko Warden Guard 时：
 
